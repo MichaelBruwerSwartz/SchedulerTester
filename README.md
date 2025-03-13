@@ -75,4 +75,18 @@ chmod +x compare.sh
 - **File Not Found**: Verify that the `TestIn` and `/Correct` directories exist and contain the appropriate files.
 - **Compilation Issues**: Check that all source files are present in the `src` directory and that your system’s GCC version supports the specified compilation flags.
 
+## Notes for MacOS Uses
+
+### Bash version
+
+MacOS ships with an outdated version of bash, which `test.sh` **will not work with**.
+
+To fix this, install a new version of bash (using homebrew is the easiest method) and replace `#!/bin/bash` with `#!/opt/homebrew/bin/bash` (assuming you installed with homebrew) in the first line of `test.sh`.
+
+### GCC linking to clang
+
+MacOS links gcc to clang by default. Even if you have installed a separate gcc and linked to it properly, calling `gcc` in a shell script still seems to call `clang`.
+
+To fix this, replace `gcc` with `gcc-14` (assuming you've linked gcc-14 to your actual installation of gcc) in `test.sh` where the project is compiled.
+
 ---
