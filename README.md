@@ -4,7 +4,7 @@
 # Test Scheduler Project
 
 ## Overview
-This project builds and tests a C scheduling program. The program reads test cases from input files, processes them to produce log outputs, and then these outputs are compared with expected results. Two Bash scripts are provided:
+This project builds and tests a C scheduling program, implemented for Computer Science 314 Stellenbosch University. The program reads test cases from input files, processes them to produce log outputs, and then these outputs are compared with expected results. Two Bash scripts are provided:
 - **run_tests.sh**: Cleans the build environment, compiles the program, runs tests using input files, and saves the generated logs in the `Output1` directory.
 - **compare_outputs.sh**: Loops through the generated logs in `Output1` and compares each log with the corresponding file in `/Correct`.
 
