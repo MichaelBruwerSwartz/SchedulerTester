@@ -1,0 +1,123 @@
+Processes P1 10 P2 20 P3 30 P4 40 P5 50 P6 60 P7 70 P8 80 P9 90 P10 100 P11 110 P12 120 P13 130 P14 140 P15 150 P16 160 P17 170 P18 180 P19 190 P20 200
+ReadyProcesses 3
+Resources R1 R2 R3 R4 R5 R6 R7 R8 R9 R10
+
+Process P1
+  req R1
+  req R2
+  rel R2
+  rel R1
+
+Process P2
+  req R1
+  req R3
+  rel R3
+  rel R1
+
+Process P3
+  req R1
+  req R4
+  rel R4
+  rel R1
+
+Process P4
+  req R1
+  req R5
+  rel R5
+  rel R1
+
+Process P5
+  req R1
+  req R6
+  rel R6
+  rel R1
+
+Process P6
+  req R1
+  req R7
+  rel R7
+  rel R1
+
+Process P7
+  req R1
+  req R8
+  rel R8
+  rel R1
+
+Process P8
+  req R1
+  req R9
+  rel R9
+  rel R1
+
+Process P9
+  req R1
+  req R10
+  rel R10
+  rel R1
+
+Process P10
+  req R2
+  req R3
+  rel R3
+  rel R2
+
+Process P11
+  req R2
+  req R4
+  rel R4
+  rel R2
+
+Process P12
+  req R2
+  req R5
+  rel R5
+  rel R2
+
+Process P13
+  req R2
+  req R6
+  rel R6
+  rel R2
+
+Process P14
+  req R2
+  req R7
+  rel R7
+  rel R2
+
+Process P15
+  req R2
+  req R8
+  rel R8
+  rel R2
+
+Process P16
+  req R2
+  req R9
+  rel R9
+  rel R2
+
+Process P17
+  req R2
+  req R10
+  rel R10
+  rel R2
+
+Process P18
+  req R3
+  req R4
+  rel R4
+  rel R3
+
+Process P19
+  req R3
+  req R5
+  rel R5
+  rel R3
+
+Process P20
+  req R3
+  req R6
+  rel R6
+  rel R3
