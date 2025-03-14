@@ -20,6 +20,7 @@ arr['G']="Priority Scheduler"
 arr['H']="Priority Scheduler 5 - Longer Boy"
 arr['I']="FCFS 3 - Longer Test Case"
 arr['J']="Priority Scheduler"
+arr['K']="Deadlock Detection P1->P2->P1"
 
 # Clean up previous build files and logs
 rm -f obj/*.o

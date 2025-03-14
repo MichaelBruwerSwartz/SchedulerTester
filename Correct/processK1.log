@@ -1,0 +1,12 @@
+P1 req R1: acquired
+P2: ready
+P1: ready
+P2 req R2: acquired
+P3: ready
+P2: ready
+P3 req R1: waiting
+P4: ready
+P4 req R2: waiting
+P2 req R1: waiting
+P1 req R2: waiting
+Deadlock detected:
