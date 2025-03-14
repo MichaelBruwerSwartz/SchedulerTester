@@ -27,8 +27,8 @@ Otherwise please use the scripts provided as described to run your project
 ├── TestIn/                # Test input files (e.g., processA1.list, processB1.list, ..., processJ1.list)
 ├── Output1/               # Generated output log files (e.g., processA1.log, processB1.log, etc.)
 ├── /Correct/              # Expected output log files (names matching those in Output1)
-├── run_tests.sh           # Script to build the project and run tests
-└── compare_outputs.sh     # Script to compare generated logs with expected outputs
+├── test.sh           # Script to build the project and run tests
+└── compare.sh     # Script to compare generated logs with expected outputs
 ```
 
 ## Scripts

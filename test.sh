@@ -16,10 +16,10 @@ arr['C']="Priority Scheduler 3 - Duplicate Resource Names"
 arr['D']="Priority Scheduler 4 - Long Boy"
 arr['E']="FCFS 1 - Given Test Case"
 arr['F']="FCFS 2 - Long Test Case"
-arr['G']="Deadlock 1 (Priority Scheduler) - Multiple Deadlocks"
+arr['G']="Priority Scheduler"
 arr['H']="Priority Scheduler 5 - Longer Boy"
 arr['I']="FCFS 3 - Longer Test Case"
-arr['J']="Deadlock 2 (Priority Scheduler) - Two Processes Locked"
+arr['J']="Priority Scheduler"
 
 # Clean up previous build files and logs
 rm -f obj/*.o
