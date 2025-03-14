@@ -10,9 +10,12 @@ This project builds and tests a C scheduling program, implemented for Computer S
 
 ## Notice
 Hello, I made a testscript for the project with some test cases. I am unsure wether all of my output is correct. If you disagree with an output I give and have reason you disagree please say so on this whatsapp group in the following format:
+
+```
 <process name>
 <line that you belive is incorrect.>
 <reason you believe it is incorrect.>
+```
 
 I will *NOT* be helping anyone run this script as I have written as README.md. If the whatsapp group finds a problem with a testcase and someone provides the corrected output to me, I will update the github to refelct this. I will not take responsibility if you manage to mess up your REPO while running this, that is not my problem. I recommend making a copy of your work before starting if you don't commit regularly.
 THe starting state for the "Correct" test cases are merely the output of my program, the lecturer has not confirmed them. If you make any test cases, please share them.
