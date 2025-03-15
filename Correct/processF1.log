@@ -8,3 +8,4 @@ P2 req R1: acquired
 P2 req R2: waiting
 P3 req R1: waiting
 P4 req R3: waiting
+Deadlock detected:
