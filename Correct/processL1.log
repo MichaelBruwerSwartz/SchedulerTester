@@ -1,0 +1,25 @@
+P1 req R1: acquired
+P4: ready
+P1 rel R1: released
+P5: ready
+P1 req R2: acquired
+P6: ready
+P1 rel R2: released
+P7: ready
+P2 req R1: acquired
+P8: ready
+P2 req R2: acquired
+P2 rel R1: released
+P2 rel R2: released
+P3 req R1: acquired
+P3 req R2: acquired
+P3 rel R1: released
+P3 rel R2: released
+P7 req R2: acquired
+P7 rel R2: released
+P7 req R1: acquired
+P7 rel R1: released
+P8 req R1: acquired
+P8 req R2: acquired
+P8 rel R1: released
+P8 rel R2: released
