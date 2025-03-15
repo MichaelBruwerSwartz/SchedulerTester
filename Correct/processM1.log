@@ -7,5 +7,6 @@ P3 req R3: acquired
 P3 rel R3: released
 P4 req R2: acquired
 P4 req R3: acquired
+P4: ready
 P4 rel R3: released
 P4 rel R2: released
