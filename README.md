@@ -9,15 +9,9 @@ This project builds and tests a C scheduling program, implemented for Computer S
 - **compare_outputs.sh**: Loops through the generated logs in `Output1` and compares each log with the corresponding file in `/Correct`.
 
 ## Notice
-Hello, I made a testscript for the project with some test cases. I am unsure wether all of my output is correct. If you disagree with an output I give and have reason you disagree please say so on this whatsapp group in the following format:
+Hello, I made a testscript for the project with some test cases. I am sure all of my output is correct, for 2025. If you disagree with an output I give and feel free to make a branch request for your year with the fixes and get a few people who agree with you to approve this:
 
-```
-<process name>
-<line that you belive is incorrect.>
-<reason you believe it is incorrect.>
-```
-
-I will *NOT* be helping anyone run this script as I have written as README.md. If the whatsapp group finds a problem with a testcase and someone provides the corrected output to me, I will update the github to refelct this. I will not take responsibility if you manage to mess up your REPO while running this, that is not my problem. I recommend making a copy of your work before starting if you don't commit regularly.
+I will *NOT* be helping anyone run this script as I have written as README.md. I will not take responsibility if you manage to mess up your REPO while running this, that is not my problem. I recommend making a copy of your work before starting if you don't commit regularly.
 THe starting state for the "Correct" test cases are merely the output of my program, the lecturer has not confirmed them. If you make any test cases, please share them.
 
 Otherwise please use the scripts provided as described to run your project
